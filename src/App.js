@@ -19,6 +19,7 @@ class App extends React.Component {
             <Header branding="Contact Manager" />
             <div className="container">
               <Switch>
+                //Defining various routes
                 <Route exact path="/" component={Contacts} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/test" component={Test} />
