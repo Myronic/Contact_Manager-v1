@@ -9,6 +9,21 @@ export default () => {
       <h6 className="text-muted text-center">
         Sorry, this page does not exist!
       </h6>
+    <h6 className="text-muted text-center">
+        Sorry, this page does not exist!
+      </h6>
+    <h6 className="text-muted text-center">
+        Sorry, this page does not exist!
+      </h6>
+    <h6 className="text-muted text-center">
+        Sorry, this page does not exist!
+      </h6>
+    <h6 className="text-muted text-center">
+        Sorry, this page does not exist!
+      </h6>
+    <h6 className="text-muted text-center">
+        Sorry, this page does not exist!
+      </h6>
       <hr />
       <h1 className="display-1 text-center text-primary">
         <i className="fas fa-address-book" />
