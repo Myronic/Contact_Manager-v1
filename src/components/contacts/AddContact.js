@@ -21,11 +21,11 @@ class AddContact extends Component {
       this.setState({ errors: { name: "Name is required!" } });
       return;
     }
-    if (email === "") {
+    else if (email === "") {
       this.setState({ errors: { email: "Email is required!" } });
       return;
     }
-    if (phone === "") {
+    else if (phone === "") {
       this.setState({ errors: { phone: "Phone is required!" } });
       return;
     }
