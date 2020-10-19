@@ -17,7 +17,7 @@ class Test extends Component {
       );
   }
 
-  /*
+  
   componentWillMount() {
     console.log("component willMount");
   }
@@ -33,12 +33,13 @@ class Test extends Component {
   componentWillReceiveProps(nextProps, nextState) {
     console.log("componentWillReceiveProps");
   }
-  */
+  
 
   render() {
     const { title, body } = this.state;
     return (
       <div>
+        {console.log("Test UI");)}
         <h1>{title}</h1> <hr />
         <h1>{body}</h1>
       </div>
